@@ -1,0 +1,7 @@
+{
+  "name": "BarbaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
