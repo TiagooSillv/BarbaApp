@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { PickupCallPageRoutingModule } from './pickup-call-routing.module';
 
-import { HomePage } from './home.page';
-import { SharedModule } from 'src/shared/shared.module';
+import { PickupCallPage } from './pickup-call.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
-    SharedModule
+    PickupCallPageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [PickupCallPage]
 })
-export class HomePageModule {}
+export class PickupCallPageModule {}
